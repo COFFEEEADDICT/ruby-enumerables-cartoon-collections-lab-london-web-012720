@@ -18,11 +18,7 @@ res = ""
 end
 
 
-def find_the_cheese(arr)
+ddef find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if arr.any? {|i|  cheese_types.include?(i)}
-  return true
-  else false
-  end
-  p arr
+   puts array.find { |x| cheese_types.include?(x) } 
 end
