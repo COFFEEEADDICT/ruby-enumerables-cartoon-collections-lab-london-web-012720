@@ -18,7 +18,7 @@ res = ""
 end
 
 
-ddef find_the_cheese(array)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-   puts array.find { |x| cheese_types.include?(x) } 
+   puts array.find { |x| cheese_types.include?(x) }
 end
